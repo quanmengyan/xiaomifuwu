@@ -1,0 +1,391 @@
+*{margin:0;padding:0;}
+/* top.css */
+.top{
+    width:100%;
+    height:36px;
+    background:#fafafa;
+    border-bottom: 1px solid #ccc;
+}
+.top-mi{
+    width:1240px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.top-left{
+    text-align: center;
+}
+.top-left a{
+    float: left;
+    text-decoration: none;
+    color:#999;
+    margin-right: 25px;
+    line-height: 35px;
+    font-size: 14px;
+    /* border-right:1px solid #ccc; */
+}
+.row{
+    content: "";
+    display: table;
+    clear: both;
+}
+.top-right p{
+    position: absolute;
+    color:#999;
+    width:59px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    font-size: 14px;
+    right:50px;
+    top:10px;
+}
+.top-right span{
+    position: absolute;
+    top: 10px;
+     right:0px;
+     color:#999;
+     font-size: 14px;
+}
+/* 内容开始 */
+.container{
+    width:1240px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    height:80px;
+}
+.logo-img img{
+    margin-top: 6px;
+}
+.logo-clock{
+    margin-left: 1125px;
+    margin-top: -80px;
+    position: relative;
+}
+.logo-clock span{
+    font-size: 12px;
+    color:#aaa;
+    position: absolute;
+    top:1px;
+    right:1px;
+}
+.logo-right{
+    position: relative;
+    width:425px;
+    height:40px;
+    margin-left: 680px;
+    margin-top: 17px;
+}
+.logo-right>input{
+    position: absolute;
+ }
+ .logo-right>:first-child{
+     width:425px;
+     height: 40px;
+     border:1px solid #999;
+     box-sizing: border-box;
+ }
+ .logo-right>:last-child{
+     width:40px;
+     height:40px;
+     z-index: 100;
+     background:url("images/fangdajing.png") no-repeat center center;
+     border:none;
+     border-left: 1px solid #999;
+     outline: none;
+     right:0px;
+ }
+ .che{
+     width:120px;
+     height:40px;
+     background: #ffdb3d;
+     margin-left: 1120px;
+     margin-top: -40px;
+     text-align: center;
+     line-height: 40px;
+ }
+ .che img{
+     margin-right: 4px;
+ }
+.nav{
+    width:100%;
+    margin-top: 20px;
+    height:50px;
+     background: #404145;
+}
+.nav a{
+    float: left;
+    color:#fff;
+    text-decoration: none;
+    line-height: 50px;
+   
+}
+.nav-all{
+    width:20%;
+    background: #ff4a00 !important;
+    padding-left: 15px;
+}
+.nav a:not(:first-child){
+   margin-right: 32px;
+    margin-left: 20px;
+}
+/*nav结束 */
+/* 中心内容开始 */
+
+.serve p{
+    line-height: 40px;
+    color:#444;
+    height:40px;
+}
+.img{
+    width:1240px;
+}
+.img img{
+    width:100%;
+}
+.trouble-title p{
+    line-height:40px;
+    color:#444;
+    border-bottom: 1px solid #999;
+}
+.trouble-img>div{
+    float: left;
+    width:25%;
+    text-align: center;
+    height: 260px;
+}
+.trouble-img{
+    overflow: hidden;
+}
+.trouble-img p{
+    margin-top: 15px;
+}
+.daily-title p{
+    line-height:40px;
+    color:#444;
+    border-bottom: 1px solid #999;
+}
+.daily-img{
+    margin-top: 20px;
+    overflow: hidden;
+}
+.daily-img>div{
+    height:150px;
+    float: left;
+    margin-top: 7px;
+    width:303px;
+    margin-left: 7px;
+    text-align: center;
+    background: #fafafa;
+}
+.daily-img p{
+    margin-top: 20px;
+}
+.daily-img img{
+    margin-top: 26px;
+}
+.daily-last{
+    overflow: hidden;
+}
+.daily-last>:first-child{
+    margin-top: 25px;
+    width:200px;
+    height: 40px;
+    border:1px solid #999;
+    box-sizing: border-box;
+    position: relative;
+}
+.daily-last>:last-child{
+    position: absolute;
+    width:40px;
+    height:40px;
+    z-index: 100;
+    background:url("images/fangdajing.png") no-repeat center center;
+    border:none;
+    border-left: 1px solid #999;
+    outline: none;
+    right:106px;
+    top:1102px;
+}
+.need-title{
+    margin-top:20px;
+     color:#444;
+     border-bottom: 1px solid #ddd;
+}
+.need-title>:last-child{
+    display: inline-block;
+    margin-left: 1100px;
+    font-size: 14px;
+} 
+.need-trouble{
+    overflow: hidden;
+    margin-top: 30px;
+    border-bottom: 1px solid #ddd;
+}
+.need-trouble>div{
+    float: left;
+    width:205px;  
+    height: 210px;
+    margin-bottom: 35px;
+}
+.need-trouble div h4{
+    color:#444;
+    margin-left: 23px;
+    margin-bottom: 15px;
+}
+.need-trouble div h6{
+    color:#ff4a00;
+    margin-left: 23px;
+    margin-bottom: 6px;
+}
+.need-trouble div p{
+    font-size: 14px;
+    color:#aaa;
+    margin-left: 23px;
+    line-height: 25px;
+}
+.need-trouble>:not(:first-child){
+    border-left: 1px solid #ddd;
+}
+.people-a{
+    list-style: none;
+    margin-top: 40px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.people-a li{
+    float: left;
+    width:25%;
+}
+.people-one{
+    width:285px;
+    height:92px;
+    background:#333333;
+    overflow: hidden;
+}
+.people-a img{
+    vertical-align: bottom;
+}
+.people-one>:first-child{
+    color:#ddd;
+     font-size: 16px;
+     text-align: center;  
+     margin-top: 20px;
+     margin-bottom: 12px; 
+     }
+.people-one>:last-child{
+    color:#ccc;
+    font-size: 14px;
+    text-align: center;
+}
+/* footer .css */
+.bottom{
+    width:auto;
+    background: #fafafa;
+}
+.foot{
+    width:1240px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.foot>div{
+    margin-top: 50px;
+   text-align: center;
+    float: left;
+    width:20%;
+}
+.foot>div>p{
+    margin-top: 15px;
+    font-size: 18px;
+    color: #999;
+}
+.footer{
+    width:1240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #999;
+}
+.footer a{
+   display: block;
+}
+.footer>div{
+    float: left;
+}
+.footer>div:not(:last-child){
+    width:16%;
+    border-right: 1px solid #999;
+}
+.footer-six>a:first-child{
+     font-size: 26px;
+     color:#999;
+}
+.footer-six>a:first-child+a{
+    margin-left: 65px;
+}
+.footer-six>a:first-child+a+a{
+    margin-left: 90px;
+}
+.footer-six>a{
+    margin-top: 3px;
+    color: #999;
+   margin-left: 40px;
+}
+.footer-six p{
+    margin-top: 15px;
+    width:120px;
+    height: 30px;
+    background:#ff4a00;
+    margin-left: 70px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+.footer-six p:hover{
+    cursor: pointer;
+}
+.footer>div:not(:last-child)>a{
+    color:#999;
+    line-height: 30px;
+    width:100px;
+    margin-left: 30px;
+    font-size: 12px;
+}
+.footer>div>h3{
+    margin-left: 30px;
+    line-height: 30px;
+    color:#444;
+}
+.web{
+    position: relative;
+    margin-top: 20px;
+    width:1240px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.web p{
+    line-height: 30px;
+    color:#444;
+}
+.web select{
+    position: absolute;
+    left: 600;
+    width:180px;
+    height: 35px;
+    margin-top: 10px;
+}
+.web img{
+    position: absolute;
+    top:80px;
+    left:450px;
+}
